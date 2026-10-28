@@ -1,0 +1,20 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Model weights (large, downloaded at runtime)
+/models/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Usage spill files / local data
+/data/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
