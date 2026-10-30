@@ -8,6 +8,18 @@ everything.
 It runs on one laptop, but every component is designed the way it would be in
 production, so that each piece can be understood (and later scaled) on its own.
 
+## Learn site (start here)
+
+`learn/` is an interactive, multi-page course that teaches the whole project from
+first principles — Rust, how computers and GPUs work, how LLMs work inside, and every
+platform component — with visual simulations on every page.
+
+```powershell
+cd learn
+npm install
+npm run dev     # open http://localhost:5173
+```
+
 ## Documentation
 
 Read in order — each document builds on the previous one.
